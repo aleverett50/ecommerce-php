@@ -57,18 +57,6 @@ print json_encode($results); exit;
 			include('../includes/change-password.php');
 			break;
 
-			case 'customers':
-			include('admin-includes/customers.php');
-			break;
-
-			case 'gallery':
-			include('admin-includes/gallery.php');
-			break;
-
-			case 'customer':
-			include('admin-includes/customer.php');
-			break;
-
 			case 'products':
 			include('admin-includes/products.php');
 			break;
@@ -77,21 +65,6 @@ print json_encode($results); exit;
 			include('admin-includes/product.php');
 			break;
 
-			case 'sub-categories':
-			include('admin-includes/sub-categories.php');
-			break;
-
-			case 'sub-category':
-			include('admin-includes/sub-category.php');
-			break;
-
-            case 'sub-sub-categories':
-                include('admin-includes/sub-sub-categories.php');
-                break;
-
-            case 'sub-sub-category':
-                include('admin-includes/sub-sub-category.php');
-                break;
 			case 'categories':
 			include('admin-includes/categories.php');
 			break;
@@ -110,30 +83,6 @@ print json_encode($results); exit;
 
 			case 'error':
 			include('admin-includes/error.php');
-			break;
-
-			case 'promos':
-			include('admin-includes/promos.php');
-			break;
-
-			case 'cross-sell':
-			include('admin-includes/cross-sell.php');
-			break;
-
-			case 'promo':
-			include('admin-includes/promo.php');
-			break;
-
-			case 'subscribers':
-			include('admin-includes/subscribers.php');
-			break;
-
-			case 'blogs':
-			include('admin-includes/blogs.php');
-			break;
-
-			case 'blog':
-			include('admin-includes/blog.php');
 			break;
 
 			default:
